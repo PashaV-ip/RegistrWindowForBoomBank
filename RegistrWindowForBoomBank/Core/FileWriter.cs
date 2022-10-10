@@ -16,7 +16,9 @@ namespace RegistrWindowForBoomBank.Core
         {
             using (StreamWriter reader = new StreamWriter(@"..\..\File\Users.txt", true))
             {
-                string userInfo = user.FirstName + ";" + user.MiddleName + ";" + user.LastName + ";" + user.Phone + ";" + user.Password + $";{user.Role};" + user.BankCard;
+                string userInfo = user.FirstName + ";" + user.MiddleName + ";"
+                                + user.LastName + ";" + user.Phone + ";"
+                                + user.Password + $";{user.Role};" + user.BankCard;
                 reader.WriteLine(userInfo);
             }
         }

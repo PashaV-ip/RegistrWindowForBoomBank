@@ -6,7 +6,8 @@
         xmlns:local="clr-namespace:RegistrWindowForBoomBank.View.Windows"
         xmlns:ViewModel="clr-namespace:RegistrWindowForBoomBank.ViewModel" x:Class="RegistrWindowForBoomBank.View.Windows.MenuWindow"
         mc:Ignorable="d"
-        Title="Boom Bank - Главное меню" MinHeight="450" MinWidth="800" WindowStartupLocation="CenterScreen">
+        Title="Boom Bank - Главное меню" MinHeight="450" MinWidth="800" WindowStartupLocation="CenterScreen"
+        Icon="/Style/logo.ico">
     <Window.DataContext>
         <ViewModel:MenuWindowViewModel/>
     </Window.DataContext>
